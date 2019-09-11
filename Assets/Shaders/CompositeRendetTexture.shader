@@ -51,8 +51,9 @@
             fixed4 frag (v2f i) : SV_Target
             {
                 fixed4 col = tex2D(_MainTex, i.uv0);
+
 				fixed4 com = max(0, tex2D(_MainTex, i.uv1) - tex2D(_CompositeRendetTexture, i.uv1));
-				return col + com;
+				return col;
             }
             ENDCG
         }
