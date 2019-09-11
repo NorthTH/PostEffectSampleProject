@@ -313,7 +313,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _material: {fileID: 2100000, guid: 18840cf859615454a98824f89556b201, type: 2}
-  _materials: []
+  _materials:
+  - {fileID: 0}
 --- !u!1 &597645220
 GameObject:
   m_ObjectHideFlags: 0

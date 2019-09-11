@@ -17,6 +17,10 @@ public class PostEffect : MonoBehaviour {
         {
             Graphics.Blit(source, dest, _material);
         }
+        else
+        {
+            Graphics.Blit(source, dest);
+        }
     }
 
     public void setMatarial()
